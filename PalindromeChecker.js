@@ -26,4 +26,4 @@ function removeNonAlpha(str){
   }
   
   
-  palindrome("eye");
+  console.log(palindrome("eye"));

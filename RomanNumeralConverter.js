@@ -126,10 +126,10 @@ function convertUnitati(str){
     for(let i=0;i<nrCifre;i++){
         rez+=convertGeneral(arrCifre[i], nrCifre-i-1);
     }
-    // console.log(rez);
+    //  console.log(rez);
    return rez;
   }
   
   
   
-  convertToRoman(400);
+  console.log(convertToRoman(400));
